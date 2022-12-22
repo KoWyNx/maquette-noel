@@ -81,7 +81,8 @@ body {
   font-size: 40px;
   font-weight: 900;
 }
-#sapin .button {
+
+.button {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 40px;
@@ -95,10 +96,10 @@ body {
 
 .gifts {
   margin-top: 50px;
-  margin-left: 25%;
+  margin-left: 27%;
   display: flex;
   flex-direction: row;
-  margin-right: 25%;
+  margin-right: 27%;
   justify-content: space-between;
 }
 
@@ -139,6 +140,117 @@ body {
 .image-gifts {
   width: 150px;
   height: 150px;
+}
+
+.cheminer-flex {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.text-cheminer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+}
+
+.cheminer {
+  width: 100%;
+}
+
+.justify {
+  text-align: justify;
+  margin-right: 123px;
+}
+
+.amour {
+  margin-right: 200px;
+}
+
+.flex-button {
+  margin-top: 20px;
+}
+
+.partage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.title-cadeau {
+  width: 100%;
+}
+
+.title-h2 {
+  text-align: center;
+}
+
+.ticket-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 40%;
+}
+
+.ticket {
+  width: 200px;
+  height: 320px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 9px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.image-ticket {
+  width: 100%;
+  justify-content: center;
+}
+
+.flex-image-ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.bx {
+  margin-top: 5px;
+  margin-right: 15px;
+  width: 100%;
+  font-size: 20px;
+  text-align: end;
+  color: #dc3845;
+}
+
+.title-h3 {
+  margin-left: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.pains {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  width: 100%;
+}
+
+.marginhat {
+  width: 80%;
+  margin-left: -8px;
 }
 
 .center {
