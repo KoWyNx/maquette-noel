@@ -1,3 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
 
+.text {
+  color: #5d5656;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: white;
+}
+#header .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 50%;
+  margin-left: 25%;
+  align-items: center;
+  left: 0;
+  position: fixed;
+}
+#header .link {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 50px;
+  margin-right: 25%;
+  right: 0;
+  align-items: center;
+  position: fixed;
+  height: 50px;
+}
+#header .header-link {
+  text-decoration: none;
+  color: #5d5656;
+}
+#header .header-link:hover {
+  color: #dc3845;
+}
+#header #noel {
+  width: 30px;
+  height: 30px;
+}
+
+#sapin {
+  display: flex;
+  margin-top: 70px;
+}
+#sapin .image {
+  width: 50%;
+}
+#sapin .midle {
+  width: 50%;
+}
+#sapin .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 17%;
+}
+#sapin .left {
+  display: flex;
+  justify-content: flex-end;
+}
+#sapin #title {
+  color: #282525;
+  font-size: 40px;
+  font-weight: 800;
+}
+#sapin .button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #dc3845;
+  font-size: 17px;
+  color: white;
+  border-radius: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
