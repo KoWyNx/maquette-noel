@@ -1,12 +1,13 @@
 @import "variable";
+
 #header{
     display: flex;
     flex-direction: row;
-    height: 50px;
-    // border-bottom: 1px solid black;
-    background-color: white;
+    height: 70px;
     top:0;
     position: fixed;
+    width: 100%;
+    background-color: white;
 
     .flex{
         display: flex;
@@ -17,6 +18,9 @@
         align-items: center;
         left: 0;
         position: fixed;
+        height: 70px;
+
+        
     }
 
     .link{
@@ -29,7 +33,7 @@
         right: 0;
         align-items: center;
         position: fixed;
-        height: 50px;
+        height: 70px;
     }
 
     .header-link{
@@ -46,5 +50,8 @@
         height: 30px;
     }
 
+    .bg{
+        background-color: red;
+    }
 
 }
