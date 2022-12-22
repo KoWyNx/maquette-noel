@@ -351,6 +351,87 @@ body {
   margin: 0px;
 }
 
+.voeux {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.bg-voeux {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-color: #dc3845;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 10px;
+}
+
+.text-voeux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.image-voeux {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.letter {
+  margin-left: 50px;
+  width: 60%;
+  transform: rotateZ(15deg);
+}
+
+.h2-voeux {
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  color: white;
+  margin-top: 0px;
+}
+
+.input {
+  margin-left: 100px;
+  border-radius: 50px;
+  height: 40px;
+  width: 50%;
+  text-decoration: none;
+  border: none;
+  padding-left: 20px;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.envoie {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  background-color: #282525;
+  padding: 15px;
+  width: 30%;
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+}
+
+.envoie:hover {
+  background-color: white;
+  color: #282525;
+}
+
 .center {
   margin-top: 40px;
   display: flex;
