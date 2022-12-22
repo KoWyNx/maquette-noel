@@ -1,0 +1,9 @@
+@import "variable";
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text{
+    color: $colorText;
+}

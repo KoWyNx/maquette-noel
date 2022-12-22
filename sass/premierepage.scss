@@ -1,0 +1,47 @@
+@import "variable";
+#sapin{
+    display: flex;
+    margin-top: 70px;
+
+    .image{
+        width: 50%;
+        
+    }
+
+    .midle{
+        width: 50%;
+    }
+
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 17%;
+        
+    }
+
+    .left{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #title{
+        color: $colorTilte;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .button{
+        padding-top: 15px; 
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: $colorRed;
+        font-size: 17px;
+        color: white;
+        border-radius: 50px;
+
+    }
+}
