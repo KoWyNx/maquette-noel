@@ -7,3 +7,22 @@ body{
 .text{
     color: $colorText;
 }
+
+.dark {
+    background-color: #282525;
+    color: white;
+    p,
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: white;
+    }
+    header {
+      background-color: black;
+      color: white;
+      a {
+        color: white;
+      }
+    }
+  }

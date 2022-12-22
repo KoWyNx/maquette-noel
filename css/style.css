@@ -55,6 +55,25 @@ body {
   color: #5d5656;
 }
 
+.dark {
+  background-color: #282525;
+  color: white;
+}
+.dark p,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4 {
+  color: white;
+}
+.dark header {
+  background-color: black;
+  color: white;
+}
+.dark header a {
+  color: white;
+}
+
 #sapin {
   display: flex;
   margin-top: 70px;
