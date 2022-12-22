@@ -42,6 +42,11 @@
     }
 }
 
+.ticket:hover{
+    transition-duration: 0.5s;
+    transform: translateY(-10px);
+}
+
 .total{
     display: flex;
     flex-direction: row;
