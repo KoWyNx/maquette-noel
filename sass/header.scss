@@ -8,8 +8,7 @@
     position: fixed;
     width: 100%;
     background-color: rgba(28,110,164,0.04);
-    box-shadow: 0px 0px 9px 7px rgba(0,0,0,0.14);
-    z-index: 1;
+    z-index: 2;
     backdrop-filter: blur(10px);
 
     .flex{
@@ -22,8 +21,6 @@
         left: 0;
         position: fixed;
         height: 70px;
-
-        
     }
 
     .link{
@@ -57,4 +54,8 @@
         background-color: red;
     }
 
+}
+
+.shadow{
+    box-shadow: 0px 0px 9px 7px rgba(0,0,0,0.14);
 }
