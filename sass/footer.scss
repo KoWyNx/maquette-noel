@@ -1,0 +1,87 @@
+#footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 100%;
+    gap: 30px;
+    margin-top: 50px;
+    position: relative;
+
+   
+}
+
+.footer-noel{
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.try{
+    margin: 0px;
+}
+
+.logo-noel{
+    width: 10%;
+}
+
+.first-div{
+    width: 25%;
+}
+
+.second-div{
+    width: 25%;
+}
+
+.third-div{
+    margin-left: 20px;
+    width: 25%;
+}
+
+.fourth-div{
+    width: 25%;
+}
+
+.all-div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.app{
+    width: 120px;
+    margin-right: 25px;
+}
+
+.liste{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.end{
+    text-align: end;
+}
+
+.textnone{
+    text-decoration: none;
+    color: #282525;
+}
+
+.positionleft{
+    width: 7%;
+    position: absolute;
+    left: 475px;
+    
+}
+
+.positionright{
+    position: absolute;
+    width: 7%;
+    right: 350px;
+    top: 3370px;
+}
+.reserve{
+    margin-top: 100px;
+    text-align: center;
+}
