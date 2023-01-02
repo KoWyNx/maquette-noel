@@ -68,6 +68,7 @@ body {
 .dark h1,
 .dark h2,
 .dark h3,
+.dark a,
 .dark h4 {
   color: white;
 }
